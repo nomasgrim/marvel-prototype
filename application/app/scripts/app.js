@@ -29,7 +29,7 @@ define(['angular', 'controllers/main', 'controllers/comics.ctrl', 'services/char
           controller: 'MainCtrl',
           controllerAs: 'main'
         })
-        .when('/comicsCtrl', {
+        .when('/comics', {
           templateUrl: 'views/comics.html',
           controller: 'ComicsCtrl',
           controllerAs: 'comicsCtrl'
