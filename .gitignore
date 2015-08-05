@@ -1,0 +1,6 @@
+app/node_modules/
+app/bower_components/
+app/.sass-cache/
+app/.idea/
+app/.tmp/
+app/dist/
