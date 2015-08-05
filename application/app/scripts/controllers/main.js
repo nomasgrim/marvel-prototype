@@ -14,9 +14,7 @@ define(['angular'], function (angular) {
       var vm = this;
       
       vm.awesomeThings = [
-        'Cliff',
-        'Noah',
-        'Ruling'
+        'Comic book Characters'
       ];
 
       var path = $location.path().replace('/','');

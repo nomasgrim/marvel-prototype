@@ -19,11 +19,8 @@ Run `grunt` for building and `grunt serve` for preview
 
 ### HOW TO USE THIS SHIT
 
-## Generators
+### Dev Shortcuts
 
-Available generators:
-
-* [angular-require](#app) (aka [angular-require:app](#app))
 * [angular-require:controller](#controller)
 * [angular-require:directive](#directive)
 * [angular-require:filter](#filter)
@@ -36,15 +33,7 @@ Available generators:
 * [angular-require:decorator](#decorator)
 * [angular-require:view](#view)
 
-### App
-Sets up a new AngularJS-RequireJS app, generating all the boilerplate you need to get started. The app generator also optionally installs Bootstrap and additional AngularJS modules, such as angular-resource (installed by default). All files created will be in the RequireJS/AMD format, and therefore all will be within "define" blocks.
-
-Example:
-```bash
-yo angular-require
-```
-
-### Route
+#### Route
 Generates a controller and view, and configures a route in `app/scripts/app.js` connecting them.
 
 Example:
@@ -94,7 +83,7 @@ define(['angular'], function (angular) {
     });
 });
 ```
-### Directive
+#### Directive
 Generates a directive in `app/scripts/directives`.
 
 Example:
@@ -119,7 +108,7 @@ define(['angular'], function (angular) {
   });
 ```
 
-### Filter
+#### Filter
 Generates a filter in `app/scripts/filters`.
 
 Example:
@@ -140,7 +129,7 @@ define(['angular'], function (angular) {
 });
 ```
 
-### View
+#### View
 Generates an HTML view file in `app/views`.
 
 Example:
@@ -153,7 +142,7 @@ Produces `app/views/user.html`:
 <p>This is the user view</p>
 ```
 
-### Service
+#### Service
 Generates an AngularJS service.
 
 Example:
@@ -174,7 +163,7 @@ define(['angular'], function (angular) {
 
 You can also do `yo angular:factory`, `yo angular:provider`, `yo angular:value`, and `yo angular:constant` for other types of services.
 
-### Decorator
+#### Decorator
 Generates an AngularJS service decorator.
 
 Example:
@@ -199,10 +188,10 @@ define(['angular'], function (angular) {
 ## Options
 In general, these options can be applied to any generator, though they only affect generators that produce scripts.
 
-### CoffeeScript
+#### CoffeeScript
 CoffeeScript is not supported at this time. Sorry. We'll take a look at CoffeeScript possibly being added at a later date.
 
-### What happened to the Minification Safe option?
+#### What happened to the Minification Safe option?
 
 **tl;dr**: You don't need to write annotated code as the build step will handle it for you.
 
@@ -275,19 +264,7 @@ When submitting a new feature, add tests that cover the feature.
 
 Recent changes can be viewed on Github on the [Releases Page](https://github.com/aaronallport/generator-angular-require/releases)
 
-## License
-
-[BSD license](http://opensource.org/licenses/bsd-license.php)
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/aaronallport/generator-angular-require/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
-## And finally
-
-Much <3 to the Yeoman community for creating such a great tool!
-
-If you like generator-angular-require, please tell your friends and colleagues. If you are writing about or mentioning generator-angular-require, let me know and I will happily link to it from here.
-
-Thank you!
+## Thank you aaronallport and his yo generator [generator-angular-require](https://github.com/aaronallport/generator-angular-require)
 
 ## Links
 
