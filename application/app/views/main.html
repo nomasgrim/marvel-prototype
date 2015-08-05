@@ -3,14 +3,18 @@
     <h1>{{key}}</h1>
   </div>
 </div>
-<div ng-repeat="character in characterList">
-  <h2>{{ character.name }}</h2>
-  <p>
-    {{ character.description }}
-  </p>
-  <img ng-src="{{character.thumbnail.path}}/landscape_incredible.{{character.thumbnail.extension}}">
-  <h3>Last Modified: {{ character.modified }}</h3>
+
+<div class="pure-g">
+  <div ng-repeat="character in characterList" class="pure-u-1 pure-u-md-1-2">
+    <h2>{{ character.name }}</h2>
+    <p>
+      {{ character.description }}
+    </p>
+    <img ng-src="{{character.thumbnail.path}}/landscape_incredible.{{character.thumbnail.extension}}">
+    <h3>Last Modified: {{ character.modified }}</h3>
+  </div>
 </div>
+
 <div class="character-pager">
   <a href="#{{prevSet}}" ng-if="prevSet >= 0">prev</a>
   <a href="#{{nextSet}}">next</a>
