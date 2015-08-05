@@ -34,6 +34,11 @@ define(['angular', 'controllers/main', 'controllers/comics.ctrl', 'services/char
           controller: 'ComicsCtrl',
           controllerAs: 'comicsCtrl'
         })
+        .when('/powers', {
+          templateUrl: 'views/powers.html',
+          controller: 'PowersCtrl',
+          controllerAs: 'powersCtrl'
+        })
         // this needs to be the 2nd to last
         // TODO: fix so it doesn't have to be the 2nd to last
         .when('/:offset', {
