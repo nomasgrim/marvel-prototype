@@ -5,13 +5,15 @@
 </div>
 
 <div class="pure-g">
-  <div ng-repeat="character in characterList" class="pure-u-1 pure-u-md-1-2">
-    <h2>{{ character.name }}</h2>
-    <p>
-      {{ character.description }}
-    </p>
-    <img ng-src="{{character.thumbnail.path}}/landscape_incredible.{{character.thumbnail.extension}}">
-    <h3>Last Modified: {{ character.modified }}</h3>
+  <div ng-repeat="character in characterList" class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4">
+    <div class="container borders corners">
+      <h2>{{ character.name }}</h2>
+      <p>
+        {{ character.description }}
+      </p>
+      <img ng-src="{{character.thumbnail.path}}/landscape_incredible.{{character.thumbnail.extension}}">
+      <h3>Last Modified: {{ character.modified }}</h3>
+    </div>
   </div>
 </div>
 
