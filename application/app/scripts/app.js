@@ -1,5 +1,5 @@
 /*jshint unused: vars */
-define(['angular', 'controllers/main', 'controllers/about']/*deps*/, function (angular, MainCtrl, AboutCtrl)/*invoke*/ {
+define(['angular', 'controllers/main', 'controllers/about', 'services/characters']/*deps*/, function (angular, MainCtrl, AboutCtrl, CharactersService, CharactersFactory)/*invoke*/ {
   'use strict';
 
   /**
@@ -13,6 +13,7 @@ define(['angular', 'controllers/main', 'controllers/about']/*deps*/, function (a
   return angular
     .module('appApp', ['appApp.controllers.MainCtrl',
 'appApp.controllers.AboutCtrl',
+'appApp.services.Characters',
 /*angJSDeps*/
     'ngCookies',
     'ngResource',

@@ -9,11 +9,18 @@ define(['angular'], function (angular) {
    * Controller of the appApp
    */
   angular.module('appApp.controllers.MainCtrl', [])
-    .controller('MainCtrl', function () {
+    .controller('MainCtrl', function ($scope, characters) {
       this.awesomeThings = [
         'Cliff',
         'Noah',
         'Ruling'
       ];
+
+      characters.getDrivers().success(function (response) {
+          //Dig into the responde to get the relevant data
+          $scope.driversList = response.data;
+          console.log('here', response.data);
+      });
+
     });
 });
