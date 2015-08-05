@@ -1,6 +1,9 @@
-app/node_modules/
-app/bower_components/
-app/.sass-cache/
-app/.idea/
-app/.tmp/
-app/dist/
+node_modules
+public
+.tmp
+.sass-cache
+.idea
+client/bower_components
+dist
+/server/config/local.env.js
+npm-debug.log
