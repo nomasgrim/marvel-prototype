@@ -11,5 +11,7 @@
   <img ng-src="{{character.thumbnail.path}}/landscape_incredible.{{character.thumbnail.extension}}">
   <h3>Last Modified: {{ character.modified }}</h3>
 </div>
-<a href="#{{prevSet}}" ng-if="prevSet >= 0">prev</a>
-<a href="#{{nextSet}}">next</a>
+<div class="character-pager">
+  <a href="#{{prevSet}}" ng-if="prevSet >= 0">prev</a>
+  <a href="#{{nextSet}}">next</a>
+</div>

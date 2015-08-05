@@ -1,5 +1,5 @@
 /*jshint unused: vars */
-define(['angular', 'controllers/main', 'controllers/comicsCtrl', 'services/characters']/*deps*/, function (angular, MainCtrl, ComicsCtrl, CharactersService, CharactersFactory)/*invoke*/ {
+define(['angular', 'controllers/main', 'controllers/comics.ctrl', 'services/characters']/*deps*/, function (angular, MainCtrl, ComicsCtrl, CharactersService, CharactersFactory)/*invoke*/ {
   'use strict';
 
   /**
@@ -30,7 +30,7 @@ define(['angular', 'controllers/main', 'controllers/comicsCtrl', 'services/chara
           controllerAs: 'main'
         })
         .when('/comicsCtrl', {
-          templateUrl: 'views/comicsCtrl.html',
+          templateUrl: 'views/comics.html',
           controller: 'ComicsCtrl',
           controllerAs: 'comicsCtrl'
         })
