@@ -15,10 +15,16 @@ define(['angular'], function (angular) {
 
       var ergastAPI = {};
 
-      ergastAPI.getDrivers = function() {
+      ergastAPI.getCharacters = function(offset) {
+        var reqUrl;
+        if(offset) {
+          reqUrl = 'http://gateway.marvel.com:80/v1/public/characters?apikey=133a84db489e55bedd245914e77dee6f&offset=' + offset;
+        }else{
+          reqUrl = 'http://gateway.marvel.com:80/v1/public/characters?apikey=133a84db489e55bedd245914e77dee6f';
+        }
         return $http({
           //method: 'JSONP', 
-          url: 'http://gateway.marvel.com:80/v1/public/characters?apikey=133a84db489e55bedd245914e77dee6f'
+          url: reqUrl
         });
       };
 

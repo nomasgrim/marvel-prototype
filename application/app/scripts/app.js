@@ -1,5 +1,5 @@
 /*jshint unused: vars */
-define(['angular', 'controllers/main', 'controllers/about', 'services/characters']/*deps*/, function (angular, MainCtrl, AboutCtrl, CharactersService, CharactersFactory)/*invoke*/ {
+define(['angular', 'controllers/main', 'controllers/comicsCtrl', 'services/characters']/*deps*/, function (angular, MainCtrl, ComicsCtrl, CharactersService, CharactersFactory)/*invoke*/ {
   'use strict';
 
   /**
@@ -12,7 +12,7 @@ define(['angular', 'controllers/main', 'controllers/about', 'services/characters
    */
   return angular
     .module('appApp', ['appApp.controllers.MainCtrl',
-'appApp.controllers.AboutCtrl',
+'appApp.controllers.ComicsCtrl',
 'appApp.services.Characters',
 /*angJSDeps*/
     'ngCookies',
@@ -29,10 +29,17 @@ define(['angular', 'controllers/main', 'controllers/about', 'services/characters
           controller: 'MainCtrl',
           controllerAs: 'main'
         })
-        .when('/about', {
-          templateUrl: 'views/about.html',
-          controller: 'AboutCtrl',
-          controllerAs: 'about'
+        .when('/comicsCtrl', {
+          templateUrl: 'views/comicsCtrl.html',
+          controller: 'ComicsCtrl',
+          controllerAs: 'comicsCtrl'
+        })
+        // this needs to be the 2nd to last
+        // TODO: fix so it doesn't have to be the 2nd to last
+        .when('/:offset', {
+          templateUrl: 'views/main.html',
+          controller: 'MainCtrl',
+          controllerAs: 'main'
         })
         .otherwise({
           redirectTo: '/'

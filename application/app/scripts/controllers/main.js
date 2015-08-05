@@ -9,17 +9,34 @@ define(['angular'], function (angular) {
    * Controller of the appApp
    */
   angular.module('appApp.controllers.MainCtrl', [])
-    .controller('MainCtrl', function ($scope, characters) {
-      this.awesomeThings = [
+    .controller('MainCtrl', function ($scope, characters, $location) {
+
+      var vm = this;
+      
+      vm.awesomeThings = [
         'Cliff',
         'Noah',
         'Ruling'
       ];
 
-      characters.getDrivers().success(function (response) {
+      var path = $location.path().replace('/','');
+
+      if(path === '') {
+        path = 0;
+      }
+
+      var currentOffset = parseInt(path);
+      
+      if(currentOffset >= 20) {
+        $scope.prevSet = currentOffset - 20;
+      }
+
+      $scope.nextSet = currentOffset + 20;      
+      
+      characters.getCharacters(currentOffset).success(function (response) {
           //Dig into the responde to get the relevant data
-          $scope.driversList = response.data;
-          console.log('here', response.data);
+          $scope.characterList = response.data.results;
+          console.log('here', response.data.results);
       });
 
     });
