@@ -6,20 +6,39 @@ define(['angular'], function (angular) {
    * @name appApp.controller:PowersCtrl
    * @description
    * # PowersCtrl
-   * Controller of the Powers view
+   * Controller of the Powers
    */
+  
   angular
-    .module('appApp.controllers.PowersCtrl')
+    .module('appApp.controllers.PowersCtrl', [])
     .controller('PowersCtrl', PowersCtrl);
 
-  PowersCtrl.$inject = ['$scope'];
+  /*
+   * @ngInject
+   */
 
-  function PowersCtrl () {
+  function PowersCtrl ($q, $scope, characters) {
     var powersCtrl = this;
 
     angular.extend(powersCtrl, {
       testeesOne: 'IS THIS THING ON!?'
     });
+
+    var currentOffset = 1;
+
+    var promise = characters.getCharacters(currentOffset);
+    promise
+      .success(getPowers);
+
+    function getPowers (response) {
+      powersCtrl.characterList = response.data.results;
+
+      angular.forEach(powersCtrl.characterList, getWikiContent);
+    }
+
+    function getWikiContent (character, index, array) {
+console.log('getWikiContent', character, index, array);
+    }
 
   }
 });
