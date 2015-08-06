@@ -19,6 +19,17 @@ body {
   margin: 5px;
 }
 
+.click-container {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  &:hover {
+    .container.borders{
+      border: 2px solid #ff0000;
+    }
+  }
+}
+
 .borders {
   border: 1px solid #000;
 }
@@ -50,4 +61,9 @@ h1,h2,h3 {
   right: 10%;
   top: 10%;
   font-size: 35px;
+  background-color: rgba(0,0,0,.8);
+  a {
+    color: #fff;
+    padding: 10px;
+  }
 }

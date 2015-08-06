@@ -1,6 +1,6 @@
 /*jshint unused: vars */
-define(['angular', 'controllers/main', 'controllers/comics', 'services/characters', 'services/comics', 'services/insert-characters', 'controllers/insert-characters', 'controllers/events', 'controllers/stories', 'controllers/insert-comics', 'controllers/insert-stories', 'controllers/insert-events', 'controllers/scrub-character-powers']/*deps*/, 
-  function (angular, MainCtrl, ComicsCtrl, CharactersService, ComicsService, InsertCharactersFactory, InsertCharactersCtrl, EventsCtrl, StoriesCtrl, InsertComicsCtrl, InsertStoriesCtrl, InsertEventsCtrl, ScrubCharacterPowersCtrl)/*invoke*/ {
+define(['angular', 'controllers/main', 'controllers/comics', 'services/characters', 'services/comics', 'services/insert-characters', 'controllers/insert-characters', 'controllers/events', 'controllers/stories', 'controllers/insert-comics', 'controllers/insert-stories', 'controllers/insert-events', 'controllers/scrub-character-powers', 'controllers/character', 'services/character', 'controllers/comic', 'services/comic']/*deps*/, 
+  function (angular, MainCtrl, ComicsCtrl, CharactersService, ComicsService, InsertCharactersFactory, InsertCharactersCtrl, EventsCtrl, StoriesCtrl, InsertComicsCtrl, InsertStoriesCtrl, InsertEventsCtrl, ScrubCharacterPowersCtrl, CharacterCtrl, CharacterFactory, ComicCtrl, ComicFactory)/*invoke*/ {
   'use strict';
 
   /**
@@ -14,7 +14,9 @@ define(['angular', 'controllers/main', 'controllers/comics', 'services/character
   return angular
     .module('appApp', ['appApp.controllers.MainCtrl',
 'appApp.controllers.ComicsCtrl',
+'appApp.services.Comic',
 'appApp.services.Comics',
+'appApp.services.Character',
 'appApp.services.Characters',
 'appApp.services.InsertCharacters',
 'appApp.controllers.InsertCharactersCtrl',
@@ -24,6 +26,8 @@ define(['angular', 'controllers/main', 'controllers/comics', 'services/character
 'appApp.controllers.InsertStoriesCtrl',
 'appApp.controllers.InsertEventsCtrl',
 'appApp.controllers.ScrubCharacterPowersCtrl',
+'appApp.controllers.CharacterCtrl',
+'appApp.controllers.ComicCtrl',
 /*angJSDeps*/
     'ngCookies',
     'ngResource',
@@ -38,6 +42,16 @@ define(['angular', 'controllers/main', 'controllers/comics', 'services/character
           templateUrl: 'views/main.html',
           controller: 'MainCtrl',
           controllerAs: 'main'
+        })
+        .when('/character/:characterId', {
+          templateUrl: 'views/character.html',
+          controller: 'CharacterCtrl',
+          controllerAs: 'character'
+        })
+        .when('/comic/:comicId', {
+          templateUrl: 'views/comic.html',
+          controller: 'ComicCtrl',
+          controllerAs: 'comic'
         })
         .when('/comics', {
           templateUrl: 'views/comics.html',
@@ -84,7 +98,7 @@ define(['angular', 'controllers/main', 'controllers/comics', 'services/character
           controller: 'ScrubCharacterPowersCtrl',
           controllerAs: 'scrubCharacterPowers'
         })
-        // this needs to be the 2nd to last
+        // this needs to be the 2nd to last if it's not, shit breaks
         // TODO: fix so it doesn't have to be the 2nd to last
         .when('/:offset', {
           templateUrl: 'views/main.html',
