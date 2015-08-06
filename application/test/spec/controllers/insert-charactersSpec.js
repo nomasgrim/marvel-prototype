@@ -2,22 +2,22 @@
 define(['angular', 'angular-mocks', 'app'], function(angular, mocks, app) {
   'use strict';
 
-  describe('Controller: MainCtrl', function () {
+  describe('Controller: InsertCharactersCtrl', function () {
 
     // load the controller's module
-    beforeEach(module('appApp.controllers.MainCtrl'));
+    beforeEach(module('appApp.controllers.InsertCharactersCtrl'));
 
-    var MainCtrl;
+    var InsertCharactersCtrl;
 
     // Initialize the controller and a mock scope
     beforeEach(inject(function ($controller, $rootScope) {
-      MainCtrl = $controller('MainCtrl', {
+      InsertCharactersCtrl = $controller('InsertCharactersCtrl', {
         // place here mocked dependencies
       });
     }));
 
     // it('should attach a list of awesomeThings to the scope', function () {
-    //   expect(MainCtrl.awesomeThings.length).toBe(3);
+    //   expect(InsertCharactersCtrl.awesomeThings.length).toBe(3);
     // });
   });
 });
