@@ -1,5 +1,6 @@
 /*jshint unused: vars */
-define(['angular', 'controllers/main', 'controllers/comics.ctrl', 'services/characters', 'services/insert-characters', 'controllers/insert-characters', 'controllers/events', 'controllers/stories', 'controllers/insert-comics', 'controllers/insert-stories', 'controllers/insert-events', 'controllers/scrub-character-powers']/*deps*/, function (angular, MainCtrl, ComicsCtrl, CharactersService, CharactersFactory, InsertCharactersFactory, InsertCharactersCtrl, EventsCtrl, StoriesCtrl, InsertComicsCtrl, InsertStoriesCtrl, InsertEventsCtrl, ScrubCharacterPowersCtrl)/*invoke*/ {
+define(['angular', 'controllers/main', 'controllers/comics', 'services/characters', 'services/comics', 'services/insert-characters', 'controllers/insert-characters', 'controllers/events', 'controllers/stories', 'controllers/insert-comics', 'controllers/insert-stories', 'controllers/insert-events', 'controllers/scrub-character-powers']/*deps*/, 
+  function (angular, MainCtrl, ComicsCtrl, CharactersService, ComicsService, InsertCharactersFactory, InsertCharactersCtrl, EventsCtrl, StoriesCtrl, InsertComicsCtrl, InsertStoriesCtrl, InsertEventsCtrl, ScrubCharacterPowersCtrl)/*invoke*/ {
   'use strict';
 
   /**
@@ -13,6 +14,7 @@ define(['angular', 'controllers/main', 'controllers/comics.ctrl', 'services/char
   return angular
     .module('appApp', ['appApp.controllers.MainCtrl',
 'appApp.controllers.ComicsCtrl',
+'appApp.services.Comics',
 'appApp.services.Characters',
 'appApp.services.InsertCharacters',
 'appApp.controllers.InsertCharactersCtrl',
@@ -38,6 +40,11 @@ define(['angular', 'controllers/main', 'controllers/comics.ctrl', 'services/char
           controllerAs: 'main'
         })
         .when('/comics', {
+          templateUrl: 'views/comics.html',
+          controller: 'ComicsCtrl',
+          controllerAs: 'comicsCtrl'
+        })
+        .when('/comics/:offset', {
           templateUrl: 'views/comics.html',
           controller: 'ComicsCtrl',
           controllerAs: 'comicsCtrl'

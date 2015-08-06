@@ -1,4 +1,17 @@
-<p>This is the about view.</p>
-<div ng-repeat="key in comicsCtrl.awesomeThings">
-  <h1>{{key}}</h1>
+<div class="pure-g">
+  <div ng-repeat="comic in comicList" class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4">
+    <div class="container borders corners">
+      <h2>{{ comic.title }}</h2>
+      <p>
+        {{ comic.description }}
+      </p>
+      <img ng-src="{{comic.thumbnail.path}}/portrait_medium.{{comic.thumbnail.extension}}">
+      <h3>Last Modified: {{ comic.modified }}</h3>
+    </div>
+  </div>
+</div>
+
+<div class="character-pager">
+  <a href="#/comics/{{prevSet}}" ng-if="prevSet >= 0">prev</a>
+  <a href="#/comics/{{nextSet}}">next</a>
 </div>
