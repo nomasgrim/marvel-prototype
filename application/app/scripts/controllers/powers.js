@@ -10,7 +10,7 @@ define(['angular'], function (angular) {
    */
   
   angular
-    .module('appApp.controllers.PowersCtrl', [])
+    .module('appApp.controllers.Powers', [])
     .controller('PowersCtrl', PowersCtrl);
 
   /*
