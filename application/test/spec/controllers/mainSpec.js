@@ -16,8 +16,8 @@ define(['angular', 'angular-mocks', 'app'], function(angular, mocks, app) {
       });
     }));
 
-    it('should attach a list of awesomeThings to the scope', function () {
-      expect(MainCtrl.awesomeThings.length).toBe(3);
-    });
+    // it('should attach a list of awesomeThings to the scope', function () {
+    //   expect(MainCtrl.awesomeThings.length).toBe(3);
+    // });
   });
 });

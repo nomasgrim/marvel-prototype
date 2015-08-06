@@ -9,8 +9,8 @@ define(['angular', 'angular-mocks', 'app'], function(angular, mocks, app) {
 
     // instantiate service
     var comics;
-    beforeEach(inject(function (_comics_) {
-      comics = _comics_;
+    beforeEach(inject(function (_comicsFactory_) {
+      comics = _comicsFactory_;
     }));
 
     it('should do something', function () {
