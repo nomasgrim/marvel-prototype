@@ -64,13 +64,6 @@ define(['angular', 'controllers/main', 'controllers/comics', 'services/character
           controller: 'StoriesCtrl',
           controllerAs: 'stories'
         })
-        // this needs to be the 2nd to last
-        // TODO: fix so it doesn't have to be the 2nd to last
-        .when('/:offset', {
-          templateUrl: 'views/main.html',
-          controller: 'MainCtrl',
-          controllerAs: 'main'
-        })
         .when('/insert-comics', {
           templateUrl: 'views/insert-comics.html',
           controller: 'InsertComicsCtrl',
@@ -90,6 +83,13 @@ define(['angular', 'controllers/main', 'controllers/comics', 'services/character
           templateUrl: 'views/scrub-character-powers.html',
           controller: 'ScrubCharacterPowersCtrl',
           controllerAs: 'scrubCharacterPowers'
+        })
+        // this needs to be the 2nd to last
+        // TODO: fix so it doesn't have to be the 2nd to last
+        .when('/:offset', {
+          templateUrl: 'views/main.html',
+          controller: 'MainCtrl',
+          controllerAs: 'main'
         })
         .otherwise({
           redirectTo: '/'
