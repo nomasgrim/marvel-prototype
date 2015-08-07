@@ -1,6 +1,8 @@
 // bower:scss
 @import "sass-pure/pure.scss";
 // endbower
+
+@import "vars.scss";
 img {
   width: 100%;
 }
@@ -13,10 +15,15 @@ img {
 
 body {
   padding: 0;
+  background-color: $white;
 }
 
 .container {
   margin: 5px;
+}
+
+.white-bg {
+  background-color: #fff;
 }
 
 .click-container {
@@ -25,7 +32,7 @@ body {
   display: block;
   &:hover {
     .container.borders{
-      border: 2px solid #ff0000;
+      border: 2px solid $detroit-orange;
     }
   }
 }
@@ -38,8 +45,21 @@ body {
   border-radius: 15px 15px 15px;
 }
 
-h1,h2,h3 {
+a {
+  color: $detroit-blue;
+}
+a:hover {
+  color: $detroit-orange;
+}
+
+h1,h2,h3,h4 {
   padding: 0 10px;
+  color: $detroit-blue;
+}
+
+p {
+  padding: 0 10px;
+  color: $detroit-blue;
 }
 
 /* Custom page header */
@@ -61,9 +81,12 @@ h1,h2,h3 {
   right: 10%;
   top: 10%;
   font-size: 35px;
-  background-color: rgba(0,0,0,.8);
+  background-color: $detroit-orange-fade;
   a {
-    color: #fff;
+    font-size: 32px;
     padding: 10px;
+    &:hover {
+      color: #fff;
+    }
   }
 }

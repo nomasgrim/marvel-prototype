@@ -118,34 +118,34 @@
 88 verbose targetResolver reading package data from /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/karma/package.json
 89 verbose targetResolver reading package data from /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/phantomjs/package.json
 90 verbose targetResolver reading package data from /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/r.js/package.json
-91 verbose already installed skipping jshint-stylish@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-92 verbose already installed skipping load-grunt-tasks@^3.1.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-93 verbose already installed skipping time-grunt@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-94 verbose already installed skipping grunt@^0.4.5 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-95 verbose already installed skipping grunt-autoprefixer@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-96 verbose already installed skipping grunt-bower-requirejs@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-97 verbose already installed skipping grunt-concurrent@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-98 verbose already installed skipping grunt-contrib-clean@^0.6.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-99 verbose already installed skipping grunt-contrib-compass@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-100 verbose already installed skipping grunt-contrib-concat@^0.5.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-101 verbose already installed skipping grunt-contrib-connect@^0.9.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-102 verbose already installed skipping grunt-contrib-copy@^0.7.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-103 verbose already installed skipping grunt-contrib-cssmin@^0.12.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-104 verbose already installed skipping grunt-contrib-htmlmin@^0.4.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-105 verbose already installed skipping grunt-contrib-imagemin@^0.9.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-106 verbose already installed skipping grunt-contrib-jshint@^0.11.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-107 verbose already installed skipping grunt-contrib-uglify@^0.7.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-108 verbose already installed skipping grunt-contrib-watch@^0.6.1 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-109 verbose already installed skipping grunt-filerev@^2.1.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-110 verbose already installed skipping grunt-google-cdn@^0.4.3 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-111 verbose already installed skipping grunt-karma@^0.10.1 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-112 verbose already installed skipping grunt-newer@^1.1.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-113 verbose already installed skipping grunt-ng-annotate@^0.9.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-114 verbose already installed skipping grunt-requirejs@^0.4.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-115 verbose already installed skipping grunt-svgmin@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-116 verbose already installed skipping grunt-text-replace@^0.4.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-117 verbose already installed skipping grunt-usemin@^3.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-118 verbose already installed skipping grunt-wiredep@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+91 verbose already installed skipping load-grunt-tasks@^3.1.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+92 verbose already installed skipping time-grunt@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+93 verbose already installed skipping grunt@^0.4.5 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+94 verbose already installed skipping grunt-autoprefixer@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+95 verbose already installed skipping grunt-bower-requirejs@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+96 verbose already installed skipping grunt-concurrent@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+97 verbose already installed skipping grunt-contrib-clean@^0.6.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+98 verbose already installed skipping grunt-contrib-compass@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+99 verbose already installed skipping grunt-contrib-concat@^0.5.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+100 verbose already installed skipping grunt-contrib-connect@^0.9.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+101 verbose already installed skipping grunt-contrib-copy@^0.7.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+102 verbose already installed skipping grunt-contrib-cssmin@^0.12.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+103 verbose already installed skipping grunt-contrib-htmlmin@^0.4.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+104 verbose already installed skipping grunt-contrib-imagemin@^0.9.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+105 verbose already installed skipping grunt-contrib-jshint@^0.11.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+106 verbose already installed skipping grunt-contrib-uglify@^0.7.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+107 verbose already installed skipping grunt-contrib-watch@^0.6.1 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+108 verbose already installed skipping grunt-filerev@^2.1.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+109 verbose already installed skipping grunt-google-cdn@^0.4.3 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+110 verbose already installed skipping grunt-karma@^0.10.1 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+111 verbose already installed skipping grunt-newer@^1.1.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+112 verbose already installed skipping grunt-ng-annotate@^0.9.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+113 verbose already installed skipping grunt-requirejs@^0.4.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+114 verbose already installed skipping grunt-svgmin@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+115 verbose already installed skipping grunt-text-replace@^0.4.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+116 verbose already installed skipping grunt-usemin@^3.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+117 verbose already installed skipping grunt-wiredep@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+118 verbose already installed skipping jshint-stylish@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
 119 silly install resolved []
 120 info build /Users/cbarendsen/nomas/marvel/marvel-prototype/application
 121 info linkStuff app@
