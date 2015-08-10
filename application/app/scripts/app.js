@@ -92,7 +92,7 @@ define([
           controllerAs: 'events'
         })
         .when('/powers', {
-          templateUrl: 'views/comics.html',
+          templateUrl: 'views/powers.html',
           controller: 'PowersCtrl',
           controllerAs: 'powersCtrl'
         })
