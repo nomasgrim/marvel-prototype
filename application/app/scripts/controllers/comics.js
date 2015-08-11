@@ -28,10 +28,11 @@ define(['angular'], function (angular) {
       }
 
       $scope.nextSet = currentOffset + 20;      
-      
+      $scope.path = path;
       comicsFactory.getComics(currentOffset).success(function (response) {
           //Dig into the responde to get the relevant data
           $scope.comicList = response.data.results;
+          $scope.comicCount = response.data.total;
           console.log('comic list', response.data.results);
       });
     });

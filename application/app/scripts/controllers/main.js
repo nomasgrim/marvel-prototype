@@ -30,11 +30,12 @@ define(['angular'], function (angular) {
       }
 
       $scope.nextSet = currentOffset + 20;      
-      
+      $scope.path = path;
       characters.getCharacters(currentOffset).success(function (response) {
           //Dig into the responde to get the relevant data
           $scope.characterList = response.data.results;
-          console.log('here', response.data.results);
+          $scope.characterCount = response.data.total;
+          console.log('here', response.data);
       });
 
     });
