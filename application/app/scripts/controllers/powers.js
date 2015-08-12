@@ -37,7 +37,7 @@ define(['angular'], function (angular) {
     }
 
     function getWikiContent (character, index, array) {
-console.log('getWikiContent', character, index, array);
+      console.log('getWikiContent', character, index, array);
     }
 
   }

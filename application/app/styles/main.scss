@@ -3,6 +3,9 @@
 // endbower
 
 @import "vars.scss";
+@import "flip.scss";
+@import "character.scss";
+
 img {
   width: 100%;
 }
@@ -75,6 +78,36 @@ p {
   border-top: 1px solid #e5e5e5;
 }
 
+.main-page {
+  a {
+    display: block;
+    text-decoration: none;
+  }
+  h1 {
+    padding: 10px;
+    text-align: center;
+  }
+  .characters {
+    margin: 10px;
+  }
+}
+
+.characters-mural, .comics-mural {
+  border-radius: 90px 10px 90px;
+}
+.characters-mural {
+  padding-bottom: 60%;
+  background-image: url('../images/marvel-universe.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.comics-mural {
+  padding-bottom: 60%;
+  background-image: url('../images/marvel-comics.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 /* Main marketing message and sign up button */
 .character-pager {
   position: fixed;

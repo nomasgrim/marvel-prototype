@@ -9,34 +9,9 @@ define(['angular'], function (angular) {
    * Controller of the appApp
    */
   angular.module('appApp.controllers.MainCtrl', [])
-    .controller('MainCtrl', function ($scope, characters, $location) {
+    .controller('MainCtrl', function () {
 
-      var vm = this;
-      
-      vm.awesomeThings = [
-        'Comic book Characters'
-      ];
-
-      var path = $location.path().replace('/','');
-
-      if(path === '') {
-        path = 0;
-      }
-
-      var currentOffset = parseInt(path);
-      
-      if(currentOffset >= 20) {
-        $scope.prevSet = currentOffset - 20;
-      }
-
-      $scope.nextSet = currentOffset + 20;      
-      $scope.path = path;
-      characters.getCharacters(currentOffset).success(function (response) {
-          //Dig into the responde to get the relevant data
-          $scope.characterList = response.data.results;
-          $scope.characterCount = response.data.total;
-          console.log('here', response.data);
-      });
+      console.log('main controller');
 
     });
 });

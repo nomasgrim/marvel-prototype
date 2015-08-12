@@ -2,6 +2,7 @@
 define([
     'angular', 
     'controllers/main', 
+    'controllers/characters', 
     'controllers/comics',
     'controllers/powers',
     'services/characters', 
@@ -18,7 +19,7 @@ define([
     'services/character', 
     'controllers/comic', 
     'services/comic']/*deps*/, 
-  function (angular, MainCtrl, ComicsCtrl, PowersCtrl, CharactersService, ComicsService, InsertCharactersFactory, InsertCharactersCtrl, EventsCtrl, StoriesCtrl, InsertComicsCtrl, InsertStoriesCtrl, InsertEventsCtrl, ScrubCharacterPowersCtrl, CharacterCtrl, CharacterFactory, ComicCtrl, ComicFactory)/*invoke*/ {
+  function (angular, MainCtrl, CharactersCtrl, ComicsCtrl, PowersCtrl, CharactersService, ComicsService, InsertCharactersFactory, InsertCharactersCtrl, EventsCtrl, StoriesCtrl, InsertComicsCtrl, InsertStoriesCtrl, InsertEventsCtrl, ScrubCharacterPowersCtrl, CharacterCtrl, CharacterFactory, ComicCtrl, ComicFactory)/*invoke*/ {
   'use strict';
 
   /**
@@ -31,6 +32,7 @@ define([
    */
   return angular
     .module('appApp', ['appApp.controllers.MainCtrl',
+    'appApp.controllers.CharactersCtrl',
     'appApp.controllers.ComicsCtrl',
     'appApp.services.Comic',
     'appApp.services.Comics',
@@ -60,6 +62,16 @@ define([
           templateUrl: 'views/main.html',
           controller: 'MainCtrl',
           controllerAs: 'main'
+        })
+        .when('/characters', {
+          templateUrl: 'views/characters.html',
+          controller: 'CharactersCtrl',
+          controllerAs: 'charactersCtrl'
+        })
+        .when('/characters/:offset', {
+          templateUrl: 'views/characters.html',
+          controller: 'CharactersCtrl',
+          controllerAs: 'charactersCtrl'
         })
         .when('/character/:characterId', {
           templateUrl: 'views/character.html',
@@ -120,13 +132,6 @@ define([
           templateUrl: 'views/scrub-character-powers.html',
           controller: 'ScrubCharacterPowersCtrl',
           controllerAs: 'scrubCharacterPowers'
-        })
-        // this needs to be the 2nd to last if it's not, shit breaks
-        // TODO: fix so it doesn't have to be the 2nd to last
-        .when('/:offset', {
-          templateUrl: 'views/main.html',
-          controller: 'MainCtrl',
-          controllerAs: 'main'
         })
         .otherwise({
           redirectTo: '/'
