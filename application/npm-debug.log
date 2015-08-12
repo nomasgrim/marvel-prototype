@@ -118,34 +118,34 @@
 88 verbose targetResolver reading package data from /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/karma/package.json
 89 verbose targetResolver reading package data from /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/phantomjs/package.json
 90 verbose targetResolver reading package data from /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/r.js/package.json
-91 verbose already installed skipping load-grunt-tasks@^3.1.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-92 verbose already installed skipping time-grunt@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-93 verbose already installed skipping grunt@^0.4.5 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-94 verbose already installed skipping grunt-autoprefixer@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-95 verbose already installed skipping grunt-bower-requirejs@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-96 verbose already installed skipping grunt-concurrent@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-97 verbose already installed skipping grunt-contrib-clean@^0.6.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-98 verbose already installed skipping grunt-contrib-compass@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-99 verbose already installed skipping grunt-contrib-concat@^0.5.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-100 verbose already installed skipping grunt-contrib-connect@^0.9.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-101 verbose already installed skipping grunt-contrib-copy@^0.7.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-102 verbose already installed skipping grunt-contrib-cssmin@^0.12.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-103 verbose already installed skipping grunt-contrib-htmlmin@^0.4.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-104 verbose already installed skipping grunt-contrib-imagemin@^0.9.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-105 verbose already installed skipping grunt-contrib-jshint@^0.11.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-106 verbose already installed skipping grunt-contrib-uglify@^0.7.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-107 verbose already installed skipping grunt-contrib-watch@^0.6.1 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-108 verbose already installed skipping grunt-filerev@^2.1.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-109 verbose already installed skipping grunt-google-cdn@^0.4.3 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-110 verbose already installed skipping grunt-karma@^0.10.1 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-111 verbose already installed skipping grunt-newer@^1.1.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-112 verbose already installed skipping grunt-ng-annotate@^0.9.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-113 verbose already installed skipping grunt-requirejs@^0.4.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-114 verbose already installed skipping grunt-svgmin@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-115 verbose already installed skipping grunt-text-replace@^0.4.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-116 verbose already installed skipping grunt-usemin@^3.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-117 verbose already installed skipping grunt-wiredep@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
-118 verbose already installed skipping jshint-stylish@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+91 verbose already installed skipping time-grunt@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+92 verbose already installed skipping grunt@^0.4.5 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+93 verbose already installed skipping grunt-autoprefixer@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+94 verbose already installed skipping grunt-bower-requirejs@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+95 verbose already installed skipping grunt-concurrent@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+96 verbose already installed skipping grunt-contrib-clean@^0.6.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+97 verbose already installed skipping grunt-contrib-compass@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+98 verbose already installed skipping grunt-contrib-concat@^0.5.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+99 verbose already installed skipping grunt-contrib-connect@^0.9.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+100 verbose already installed skipping grunt-contrib-copy@^0.7.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+101 verbose already installed skipping grunt-contrib-cssmin@^0.12.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+102 verbose already installed skipping grunt-contrib-htmlmin@^0.4.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+103 verbose already installed skipping grunt-contrib-imagemin@^0.9.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+104 verbose already installed skipping grunt-contrib-jshint@^0.11.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+105 verbose already installed skipping grunt-contrib-uglify@^0.7.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+106 verbose already installed skipping grunt-contrib-watch@^0.6.1 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+107 verbose already installed skipping grunt-filerev@^2.1.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+108 verbose already installed skipping grunt-google-cdn@^0.4.3 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+109 verbose already installed skipping grunt-karma@^0.10.1 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+110 verbose already installed skipping grunt-newer@^1.1.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+111 verbose already installed skipping grunt-ng-annotate@^0.9.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+112 verbose already installed skipping grunt-requirejs@^0.4.2 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+113 verbose already installed skipping grunt-svgmin@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+114 verbose already installed skipping grunt-text-replace@^0.4.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+115 verbose already installed skipping grunt-usemin@^3.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+116 verbose already installed skipping grunt-wiredep@^2.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+117 verbose already installed skipping jshint-stylish@^1.0.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
+118 verbose already installed skipping load-grunt-tasks@^3.1.0 /Users/cbarendsen/nomas/marvel/marvel-prototype/application
 119 silly install resolved []
 120 info build /Users/cbarendsen/nomas/marvel/marvel-prototype/application
 121 info linkStuff app@
@@ -203,52 +203,52 @@
 133 verbose link bins   false ]
 134 verbose linkMans bower@1.4.1
 135 verbose rebuildBundles bower@1.4.1
-136 verbose rebuildBundles [ '.bin',
-136 verbose rebuildBundles   'abbrev',
-136 verbose rebuildBundles   'archy',
-136 verbose rebuildBundles   'bower-config',
-136 verbose rebuildBundles   'bower-endpoint-parser',
-136 verbose rebuildBundles   'bower-json',
-136 verbose rebuildBundles   'bower-logger',
-136 verbose rebuildBundles   'bower-registry-client',
-136 verbose rebuildBundles   'cardinal',
-136 verbose rebuildBundles   'chalk',
-136 verbose rebuildBundles   'chmodr',
-136 verbose rebuildBundles   'configstore',
-136 verbose rebuildBundles   'decompress-zip',
-136 verbose rebuildBundles   'fstream',
-136 verbose rebuildBundles   'fstream-ignore',
-136 verbose rebuildBundles   'github',
-136 verbose rebuildBundles   'glob',
-136 verbose rebuildBundles   'graceful-fs',
-136 verbose rebuildBundles   'handlebars',
-136 verbose rebuildBundles   'inquirer',
-136 verbose rebuildBundles   'insight',
-136 verbose rebuildBundles   'is-root',
-136 verbose rebuildBundles   'junk',
-136 verbose rebuildBundles   'lockfile',
-136 verbose rebuildBundles   'lru-cache',
-136 verbose rebuildBundles   'mkdirp',
-136 verbose rebuildBundles   'mout',
-136 verbose rebuildBundles   'nopt',
-136 verbose rebuildBundles   'opn',
-136 verbose rebuildBundles   'p-throttler',
-136 verbose rebuildBundles   'promptly',
-136 verbose rebuildBundles   'q',
-136 verbose rebuildBundles   'request',
-136 verbose rebuildBundles   'request-progress',
-136 verbose rebuildBundles   'retry',
-136 verbose rebuildBundles   'rimraf',
-136 verbose rebuildBundles   'semver',
-136 verbose rebuildBundles   'shell-quote',
-136 verbose rebuildBundles   'stringify-object',
-136 verbose rebuildBundles   'tar-fs',
-136 verbose rebuildBundles   'tmp',
-136 verbose rebuildBundles   'update-notifier',
-136 verbose rebuildBundles   'user-home',
-136 verbose rebuildBundles   'which' ]
-137 silly gentlyRm /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/bower is being purged
-138 verbose gentlyRm don't care about contents; nuking /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/bower
+136 silly gentlyRm /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/bower is being purged
+137 verbose gentlyRm don't care about contents; nuking /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/bower
+138 verbose rebuildBundles [ '.bin',
+138 verbose rebuildBundles   'abbrev',
+138 verbose rebuildBundles   'archy',
+138 verbose rebuildBundles   'bower-config',
+138 verbose rebuildBundles   'bower-endpoint-parser',
+138 verbose rebuildBundles   'bower-json',
+138 verbose rebuildBundles   'bower-logger',
+138 verbose rebuildBundles   'bower-registry-client',
+138 verbose rebuildBundles   'cardinal',
+138 verbose rebuildBundles   'chalk',
+138 verbose rebuildBundles   'chmodr',
+138 verbose rebuildBundles   'configstore',
+138 verbose rebuildBundles   'decompress-zip',
+138 verbose rebuildBundles   'fstream',
+138 verbose rebuildBundles   'fstream-ignore',
+138 verbose rebuildBundles   'github',
+138 verbose rebuildBundles   'glob',
+138 verbose rebuildBundles   'graceful-fs',
+138 verbose rebuildBundles   'handlebars',
+138 verbose rebuildBundles   'inquirer',
+138 verbose rebuildBundles   'insight',
+138 verbose rebuildBundles   'is-root',
+138 verbose rebuildBundles   'junk',
+138 verbose rebuildBundles   'lockfile',
+138 verbose rebuildBundles   'lru-cache',
+138 verbose rebuildBundles   'mkdirp',
+138 verbose rebuildBundles   'mout',
+138 verbose rebuildBundles   'nopt',
+138 verbose rebuildBundles   'opn',
+138 verbose rebuildBundles   'p-throttler',
+138 verbose rebuildBundles   'promptly',
+138 verbose rebuildBundles   'q',
+138 verbose rebuildBundles   'request',
+138 verbose rebuildBundles   'request-progress',
+138 verbose rebuildBundles   'retry',
+138 verbose rebuildBundles   'rimraf',
+138 verbose rebuildBundles   'semver',
+138 verbose rebuildBundles   'shell-quote',
+138 verbose rebuildBundles   'stringify-object',
+138 verbose rebuildBundles   'tar-fs',
+138 verbose rebuildBundles   'tmp',
+138 verbose rebuildBundles   'update-notifier',
+138 verbose rebuildBundles   'user-home',
+138 verbose rebuildBundles   'which' ]
 139 silly vacuum-fs purging /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/bower
 140 silly vacuum-fs quitting because other entries in /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin
 141 info install bower@1.4.1
@@ -274,32 +274,32 @@
 159 verbose link bins   false ]
 160 verbose linkMans karma@0.13.5
 161 verbose rebuildBundles karma@0.13.5
-162 verbose rebuildBundles [ '.bin',
-162 verbose rebuildBundles   'bluebird',
-162 verbose rebuildBundles   'body-parser',
-162 verbose rebuildBundles   'chokidar',
-162 verbose rebuildBundles   'colors',
-162 verbose rebuildBundles   'connect',
-162 verbose rebuildBundles   'core-js',
-162 verbose rebuildBundles   'di',
-162 verbose rebuildBundles   'dom-serialize',
-162 verbose rebuildBundles   'expand-braces',
-162 verbose rebuildBundles   'glob',
-162 verbose rebuildBundles   'graceful-fs',
-162 verbose rebuildBundles   'http-proxy',
-162 verbose rebuildBundles   'lodash',
-162 verbose rebuildBundles   'log4js',
-162 verbose rebuildBundles   'memoizee',
-162 verbose rebuildBundles   'mime',
-162 verbose rebuildBundles   'minimatch',
-162 verbose rebuildBundles   'optimist',
-162 verbose rebuildBundles   'rimraf',
-162 verbose rebuildBundles   'socket.io',
-162 verbose rebuildBundles   'source-map',
-162 verbose rebuildBundles   'useragent' ]
-163 silly gentlyRm /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/karma is being purged
-164 verbose gentlyRm don't care about contents; nuking /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/karma
-165 silly vacuum-fs purging /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/karma
+162 silly gentlyRm /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/karma is being purged
+163 verbose gentlyRm don't care about contents; nuking /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/karma
+164 silly vacuum-fs purging /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/karma
+165 verbose rebuildBundles [ '.bin',
+165 verbose rebuildBundles   'bluebird',
+165 verbose rebuildBundles   'body-parser',
+165 verbose rebuildBundles   'chokidar',
+165 verbose rebuildBundles   'colors',
+165 verbose rebuildBundles   'connect',
+165 verbose rebuildBundles   'core-js',
+165 verbose rebuildBundles   'di',
+165 verbose rebuildBundles   'dom-serialize',
+165 verbose rebuildBundles   'expand-braces',
+165 verbose rebuildBundles   'glob',
+165 verbose rebuildBundles   'graceful-fs',
+165 verbose rebuildBundles   'http-proxy',
+165 verbose rebuildBundles   'lodash',
+165 verbose rebuildBundles   'log4js',
+165 verbose rebuildBundles   'memoizee',
+165 verbose rebuildBundles   'mime',
+165 verbose rebuildBundles   'minimatch',
+165 verbose rebuildBundles   'optimist',
+165 verbose rebuildBundles   'rimraf',
+165 verbose rebuildBundles   'socket.io',
+165 verbose rebuildBundles   'source-map',
+165 verbose rebuildBundles   'useragent' ]
 166 silly vacuum-fs quitting because other entries in /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin
 167 info install karma@0.13.5
 168 info postinstall karma@0.13.5
@@ -365,18 +365,18 @@
 226 verbose link bins   false ]
 227 verbose linkMans phantomjs@1.9.17
 228 verbose rebuildBundles phantomjs@1.9.17
-229 verbose rebuildBundles [ '.bin',
-229 verbose rebuildBundles   'adm-zip',
-229 verbose rebuildBundles   'fs-extra',
-229 verbose rebuildBundles   'kew',
-229 verbose rebuildBundles   'npmconf',
-229 verbose rebuildBundles   'progress',
-229 verbose rebuildBundles   'request',
-229 verbose rebuildBundles   'request-progress',
-229 verbose rebuildBundles   'which' ]
-230 silly gentlyRm /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/phantomjs is being purged
-231 verbose gentlyRm don't care about contents; nuking /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/phantomjs
-232 silly vacuum-fs purging /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/phantomjs
+229 silly gentlyRm /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/phantomjs is being purged
+230 verbose gentlyRm don't care about contents; nuking /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/phantomjs
+231 silly vacuum-fs purging /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin/phantomjs
+232 verbose rebuildBundles [ '.bin',
+232 verbose rebuildBundles   'adm-zip',
+232 verbose rebuildBundles   'fs-extra',
+232 verbose rebuildBundles   'kew',
+232 verbose rebuildBundles   'npmconf',
+232 verbose rebuildBundles   'progress',
+232 verbose rebuildBundles   'request',
+232 verbose rebuildBundles   'request-progress',
+232 verbose rebuildBundles   'which' ]
 233 silly vacuum-fs quitting because other entries in /Users/cbarendsen/nomas/marvel/marvel-prototype/application/node_modules/.bin
 234 info install phantomjs@1.9.17
 235 verbose unsafe-perm in lifecycle true

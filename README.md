@@ -1,6 +1,9 @@
 # marvel-prototype
 Random testing with Marvel's API
 
+# [View Live Demo](http://projectmeadowlark.com)
+> http://projectmeadowlark.com
+
 ### First
 Install `yo`, `grunt-cli`, `bower`, `generator-angular-require` and `generator-karma-require`
 

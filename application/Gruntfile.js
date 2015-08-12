@@ -503,7 +503,7 @@ module.exports = function (grunt) {
     'cssmin',
     // Below task commented out as r.js (via grunt-contrib-requirejs) will take care of this
     // 'uglify',
-    'filerev',
+    // 'filerev',
     'usemin',
     'requirejs:dist',
     'htmlmin'
